@@ -44,9 +44,9 @@ mock.detail.source-type-rate=40:25:15:20
 logback.xml:
 ---------------------------------------------------------------------------------------------------------------------------------------------------
 
-1. <?xml version="1.0" encoding="UTF-8"?>
-2. <configuration>
-3. <!--    日志保存地方-->
+ <?xml version="1.0" encoding="UTF-8"?>
+ <configuration>
+<!--    日志保存地方-->
     <property name="LOG_HOME" value="/opt/applog/gmall-logs" />
     <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
         <encoder>
